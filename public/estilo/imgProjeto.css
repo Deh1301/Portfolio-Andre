@@ -1,0 +1,27 @@
+.imgProjetoSweet{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 70px;
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+.imgProjetoCronometro{
+    width: 80%;
+    
+    margin-top: 10px;
+    margin-left: 700px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.imgProjetoTarefa{
+    width: 80%;
+    opacity: 100%;
+    margin-top: 30px;
+    margin-left: 400px;
+    position: absolute;
+    cursor: pointer;
+    border: 2px solid black;
+}

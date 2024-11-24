@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Pacifico&family=Playwrite+RO:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+RO:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+RO:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.imgBody {
+  opacity: 5%;
+  position: absolute;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.imgBody2 {
+  opacity: 5%;
+  width: 50%;
+  margin-top: 00px;
+}
+
+body {
+  
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 500px;
+  margin-top: 300px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  position: absolute;
+  opacity: 100%;
+}
+
+h3 {
+  margin-top: 400px;
+  margin-left: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  text-align: justify;
+  width: 70%;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imgHeader {
+  opacity: 90%;
+  margin-top: 5px;
+  margin-left: 2px;
+  border-top: 3px solid rgba(0, 0, 0, 0.955);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.955);
+}
+
+.btnContato {
+  padding: 10px;
+  background: transparent;
+  border: 3px solid black;
+  margin-left: 1000px;
+  position: absolute;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.1s;
+  border-radius: 5%;
+}
+.btnContato:hover {
+  border: 1px solid black;
+}
+
+.btnProjeto {
+  padding: 10px;
+  background: transparent;
+  border: 3px solid black;
+  margin-left: 1100px;
+  position: absolute;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.1s;
+  border-radius: 5%;
+}
+
+.btnProjeto:hover {
+  border: 1px solid black;
+}
+
+main {
+  margin-top: 300px;
+}
+
+
+
+section {
+}
+
+.projetos {
+  margin-top: -250px;
+  position: absolute;
+}
+
+.projetosTitulo {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 600px;
+}
+
+.textoCronometro{
+  position: absolute;
+  margin-left: 950px;
+  margin-top: -30px;
+}
+
+.listaTarefa{
+  margin-left: 450px;
+  
+}
+
+.txtConhecimentos{
+  margin-top: 900px;
+}
+
+footer {
+  margin-top: 1300px;
+
+  background-color: black;
+}
+
+.textoRodape {
+  text-align: center;
+  color: aliceblue;
+}
+
