@@ -5,7 +5,7 @@ rotas.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../public", "index.html"));
 });
 
-rotas.get("/lista de tarefa",(req,res)=>{
+rotas.get("/tarefas",(req,res)=>{
   res.redirect("https://lista-de-tarefas-three-xi.vercel.app/")
 })
 
