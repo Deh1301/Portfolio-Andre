@@ -1,4 +1,4 @@
-<h1>Portfólio de Desenvolvedor - André</h1>
+<h1>Portfólio de Desenvolvedor - André</h1>   (projeto ainda em construção)
 <p style= "text-align: justify;">Bem-vindo ao meu portfólio! Este é um projeto que reúne minhas habilidades como desenvolvedor, meus interesses em programação e redes de comunicação, e alguns dos projetos que desenvolvi. A ideia é apresentar meu aprendizado contínuo e minha abordagem organizada para construir soluções criativas.</p>
 
 <h2>🌟 Funcionalidades do Portfólio</h2>
