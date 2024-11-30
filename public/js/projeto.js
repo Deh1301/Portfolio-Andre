@@ -29,5 +29,15 @@ document.addEventListener("DOMContentLoaded",()=>{
         })
     }
     ListaTarefaImg()
+    const cadastro = ()=>{
+        gsap.to("#imgCadastro",{
+            duration:1,
+            rotate:-5,
+            yoyo: true,
+            repeat: -3,
+            ease:"power1.inOut"
+        })
+    }
+    cadastro()
     AOS.init()
 })

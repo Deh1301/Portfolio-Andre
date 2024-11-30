@@ -17,4 +17,8 @@ rotas.get("/cronometro",(req,res)=>{
   res.redirect("https://cronometro-projeto-rust.vercel.app/")
 })
 
+rotas.get("/cadastro",(req,res)=>{
+  res.redirect("https://deh1301.github.io/Cadastro-de-Funcionario/")
+})
+
 module.exports = rotas;

@@ -116,15 +116,41 @@ section {
   margin-left: 600px;
 }
 
+.textoSweet{
+  
+  color: black;
+}
+
+.aStudio{
+  text-decoration: none;
+}
+
 .textoCronometro{
   position: absolute;
   margin-left: 950px;
   margin-top: -30px;
+  text-decoration: none;
+  color: black;
 }
 
-.listaTarefa{
-  margin-left: 450px;
+.listaTarefa {
+  margin-left: 350px;
+  text-decoration: none;
+  color: black;
   
+}
+
+.aTarefa{
+  text-decoration: none;
+}
+
+.txtcadastro{
+  margin-top: -40px;
+  position: absolute;
+  margin-left: 1000px;
+  
+  text-decoration: none;
+  color: black;
 }
 
 .txtConhecimentos{
