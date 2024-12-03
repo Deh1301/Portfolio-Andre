@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>André Calixto</title>
     <link rel="stylesheet" href="estilo/indexSite.css">
     <link rel="stylesheet" href="estilo/imgProjeto.css">
     <link rel="stylesheet" href="estilo/imgSkills.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <img class="imgBody"src="img/calixtotext.jpg" alt="">
-    <header>
+    <img class="imgBody" id="imgBody" src="img/calixtotext.jpg" alt="">
+    <header class="header">
         
         <h2>< >Bem vindo ao meu portfólio"< ></h2>
-        <img class="imgHeader" src="img/calixto.jpg" alt="">
+        <img class="imgHeader" id="imgHeader"src="img/calixto.jpg" alt="">
     </header>
     <nav>
-        <button class="btnContato" id="btn">Contato</button>
+        <button class="btnContato" id="btnContato">Contato</button>
         <button class="btnProjeto" id="btnProjeto">Projetos</button>
         
     </nav>
@@ -100,16 +100,22 @@
 
     
     <footer>
-        
-
-        <h3 class="textoRodape">Desenvolvido por André Calixto</h3>
+        <span class="footerTxt">Informações de Contatos:</span>
+        <aside>
+           
+            <h4>Contato:(12)98817-1097</h4>
+            <h4 class="h4Email"><a class="emailTxt" href="mailto:calixtoandre77@gmail.com">Email:calixtoandre77@gmail.com</a></h4>
+        </aside>
+        <h2 id="txtDev"></h2>
     </footer>
-    
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="js/telaMenu.js" defer></script>
+    <script src="js/Cabecalho.js" defer></script>
     <script src="js/clickNav.js" defer></script>
     <script src="js/projeto.js" defer></script>
+    <script src="js/rodape.js"></script>
     
    
 
