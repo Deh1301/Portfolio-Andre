@@ -9,6 +9,12 @@ document.addEventListener("DOMContentLoaded",()=>{
         
 
     },1000)
+    const typed = new Typed("#headerTxt",{
+        typeSpeed:50,
+        loop:true,
+        strings:['< >Bem Vindo ao meu Portfólio < / >']
+
+    })
     
     AOS.init()
 })
