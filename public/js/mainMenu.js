@@ -23,10 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   telaInicialAnimar();
 
-  const carregarProximaPag = () => {
-    setTimeout(() => {
-      window.location.href = "indexSite.html";
-    }, 5000);
-  };
-  carregarProximaPag()
+  // const carregarProximaPag = () => {
+  //   setTimeout(() => {
+  //     window.location.href = "indexSite.html";
+  //   }, 5000);
+  // };
+  // carregarProximaPag()
 });
