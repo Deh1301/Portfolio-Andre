@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Pacifico&family=Playwrite+RO:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+RO:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+RO:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+RO:wght@100..400&family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.imgBody {
+  opacity: 5%;
+  position: absolute;
+  width: 100%;
+  margin-top: 300px;
+}
+
+.imgBody2 {
+  opacity: 5%;
+  width: 50%;
+  margin-top: 00px;
+}
+
+body {
+  
+}
+
+header{
+  opacity: 0;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 500px;
+  margin-top: 300px;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  position: absolute;
+  opacity: 100%;
+}
+
+h3 {
+  margin-top: 400px;
+  margin-left: 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  text-align: justify;
+  width: 70%;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.imgHeader {
+  
+  margin-top: 5px;
+  margin-left: 2px;
+  border-top: 3px solid rgba(0, 0, 0, 0.955);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.955);
+}
+
+nav{
+  opacity: 0;
+}
+
+.btnContato {
+  padding: 10px;
+  background: transparent;
+  border: 3px solid black;
+  margin-left: 1000px;
+  position: absolute;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.1s;
+  border-radius: 5%;
+}
+.btnContato:hover {
+  border: 1px solid black;
+}
+
+.btnProjeto {
+  padding: 10px;
+  background: transparent;
+  border: 3px solid black;
+  margin-left: 1100px;
+  position: absolute;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: 0.1s;
+  border-radius: 5%;
+}
+
+.btnProjeto:hover {
+  border: 1px solid black;
+}
+
+main {
+  margin-top: 300px;
+}
+
+
+
+section {
+}
+
+.projetos {
+  margin-top: -250px;
+  position: absolute;
+}
+
+.projetosTitulo {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 600px;
+}
+
+.textoSweet{
+  
+  color: black;
+}
+
+.textoSweet:hover{
+  text-decoration: underline;
+}
+
+.aStudio{
+  text-decoration: none;
+}
+
+.textoCronometro{
+  position: absolute;
+  margin-left: 950px;
+  margin-top: -30px;
+  text-decoration: none;
+  color: black;
+}
+
+.textoCronometro:hover{
+  text-decoration: underline;
+}
+
+.listaTarefa {
+  margin-left: 350px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+.listaTarefa:hover{
+  text-decoration: underline;
+}
+
+.aTarefa{
+  text-decoration: none;
+}
+
+.txtcadastro{
+  margin-top: -40px;
+  position: absolute;
+  margin-left: 1000px;
+  
+  text-decoration: none;
+  color: black;
+}
+
+.txtcadastro:hover{
+  text-decoration: underline;
+}
+.txtConhecimentos{
+  margin-top: 900px;
+}
+
+
+footer {
+  margin-top: 1300px;
+  padding: 60px;
+  color: aliceblue;
+  background-color: black;
+}
+
+.textoRodape {
+  text-align: center;
+  color: aliceblue;
+}
+
+.footerTxt{
+  color: aliceblue;
+  
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+aside {
+  margin-top: 50px;
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 1px solid white;
+  width: 20%;
+  padding: 10px;
+  margin-inline: 10px;
+}
+
+h4{
+  font-weight: lighter;
+  text-align: center;
+  
+}
+
+.emailTxt{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.telTxt{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.telTxt:hover{
+  text-decoration: underline;
+  
+}
+
+.h4Email{
+  margin-top: 10px;
+
+}
+
+.emailTxt:hover{
+  text-decoration: underline;
+}
+
+.svg{
+  width: 40px;
+  height: 40px;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+h5{
+  margin-left: 450px;
+  position: absolute;
+  font-size: 40px;
+  margin-top: -100px;
+  font-family: "Dancing Script", cursive;
+  
+}
+
+.social{
+  margin-left: 800px;
+  margin-top: -100px;
+  border: none;
+  padding-inline: 30px;
+}
+.gitHub{
+  width: 50%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.gitHubAcess{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.linkedin{
+  width: 6%;
+  margin-left: 100px;
+  cursor: pointer;
+  margin-top: 15px;
+  position: absolute;
+}
+
+.linkAcess{
+  color: aliceblue;
+  text-decoration: none;
+}
