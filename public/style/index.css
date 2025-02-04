@@ -26,7 +26,7 @@ div {
 
 h2 {
   color: #DEEFE7;
-  margin-top: 50px;
+  margin-top: 290px;
   position: absolute;
   margin-left: 450px;
   font-size: 50px;
@@ -38,18 +38,18 @@ h2 {
   text-shadow: 1px 1px 1px black;
 }
 
-@media (min-width:540px), (max-width:950px){
+@media (max-width:700px){
   section{
     margin-left: -300px;
     
     margin-top: 300px;
   }
   h2{
-    font-size: 42px;
+    font-size: 32px;
     margin-top: 150px;
     
-    top: 40%;
-    left: -50%;
+    top: 30%;
+    left: -80%;
     transform: translate(-50%,-15%);
   
   }
@@ -58,7 +58,7 @@ h2 {
     height: 120px;
     position: absolute;
     top: 50%;
-    left: -15%;
+    left: -33%;
     transform: translate(-50%,-15%);
    
     margin-top: -100px;
