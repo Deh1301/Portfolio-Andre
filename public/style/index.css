@@ -40,7 +40,7 @@ h2 {
 
 /* iphone pequeno porte */
 
-@media (min-width:320px) and (max-width:570px){
+@media (min-width:320px) and (max-width:480px){
   
   h2{
     font-size: 28px;
@@ -112,6 +112,30 @@ h2 {
     position: absolute;
     top: 50%;
     left: -15%;
+    transform: translate(-50%,-15%);
+   
+    margin-top: -100px;
+    
+  }
+}
+
+@media (min-width: 30px) and (max-width: 411px) {
+  h2{
+    font-size: 30px;
+    margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 30%;
+    left: -75%;
+    transform: translate(-50%,-15%);
+    text-shadow: 1px 1px 1px rgb(107, 226, 139);
+  
+  }
+  div{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: -25%;
     transform: translate(-50%,-15%);
    
     margin-top: -100px;
