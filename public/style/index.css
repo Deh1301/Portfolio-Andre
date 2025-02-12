@@ -38,19 +38,18 @@ h2 {
   text-shadow: 1px 1px 1px black;
 }
 
-@media (max-width:700px){
-  section{
-    margin-left: -300px;
-    
-    margin-top: 300px;
-  }
+/* iphone pequeno porte */
+
+@media (min-width:320px) and (max-width:570px){
+  
   h2{
-    font-size: 32px;
+    font-size: 28px;
     margin-top: 150px;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 30%;
     left: -68%;
     transform: translate(-50%,-15%);
+    text-shadow: 1px 1px 1px rgb(107, 226, 139);
   
   }
   div{
@@ -58,7 +57,61 @@ h2 {
     height: 120px;
     position: absolute;
     top: 50%;
-    left: -18%;
+    left: -22%;
+    transform: translate(-50%,-15%);
+   
+    margin-top: -100px;
+    
+  }
+  
+
+}
+
+/* iphone grande porte */
+
+@media (min-width:380px) and (max-width:900px){
+  h2{
+    font-size: 34px;
+    margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 30%;
+    left: -52%;
+    transform: translate(-50%,-15%);
+    text-shadow: 1px 1px 1px rgb(107, 226, 139);
+  
+  }
+  div{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translate(-50%,-15%);
+   
+    margin-top: -100px;
+    
+  }
+
+}
+
+/* //samsung */
+@media (min-width:412px) and (max-width:915px){
+  h2{
+    font-size: 28px;
+    margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 30%;
+    left: -58%;
+    transform: translate(-50%,-15%);
+    text-shadow: 1px 1px 1px rgb(107, 226, 139);
+  
+  }
+  div{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: -15%;
     transform: translate(-50%,-15%);
    
     margin-top: -100px;
