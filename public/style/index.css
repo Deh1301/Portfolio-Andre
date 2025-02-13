@@ -149,7 +149,7 @@ h2 {
     margin-top: 250px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 30%;
-    left: -75%;
+    left: -65%;
     transform: translate(-50%,-15%);
     text-shadow: 1px 1px 1px rgb(107, 226, 139);
   
@@ -159,10 +159,34 @@ h2 {
     height: 120px;
     position: absolute;
     top: 50%;
-    left: -25%;
+    left: -20%;
     transform: translate(-50%,-15%);
    
     margin-top: -100px;
     
   }
 }
+
+/* @media (min-width: 410px) and (max-width:870px){
+  h2{
+    font-size: 25px;
+    margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 30%;
+    left: -60%;
+    transform: translate(-50%,-15%);
+    text-shadow: 1px 1px 1px rgb(107, 226, 139);
+  
+  }
+  div{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: -20%;
+    transform: translate(-50%,-15%);
+   
+    margin-top: -100px;
+    
+  }
+} */
