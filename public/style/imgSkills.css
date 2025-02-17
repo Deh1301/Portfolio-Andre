@@ -1,39 +1,27 @@
 .imgJs{
     width: 5%;
     margin-top: 1000px;
-    margin-left: 200px;
+    margin-left: 400px;
     cursor: pointer;
     position: absolute;
+    background-color: aliceblue;
 }
 
 .imgCSharp{
     width: 5%;
     margin-top: 1000px;
-    margin-left: 400px;
+    margin-left: 600px;
     cursor: pointer;
     position: absolute;
+    background-color: aliceblue;
 }
 
 .imgNodeJs{
     width: 5%;
     margin-top: 1000px;
-    margin-left: 600px;
-    cursor: pointer;
-    position: absolute;
-}
-
-.imgCss{
-    width: 5%;
-    margin-top: 1000px;
     margin-left: 800px;
     cursor: pointer;
     position: absolute;
+    
 }
 
-.imgHtml{
-    width: 5%;
-    margin-top: 1000px;
-    margin-left: 1000px;
-    cursor: pointer;
-    position: absolute;
-}

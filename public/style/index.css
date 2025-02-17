@@ -12,16 +12,25 @@ html{
 
 body {
   background-color:rgb(13, 13, 13);
+  
+
 }
 
+
+
 div {
-  width: 150px;
+   width: 150px;
   height: 150px;
-  background-color:rgb(13, 13, 13);
+  background-color:rgb(13, 13, 13); 
   transition: 1s;
-  margin-top: 250px;
+  margin-top: 310px;
   opacity: 0;
-  border: 4px solid #DEEFE7;
+  color: #DEEFE7;
+
+}
+
+.gifLogo{
+  width: 45%;
 }
 
 h2 {
@@ -29,7 +38,7 @@ h2 {
   margin-top: 290px;
   position: absolute;
   margin-left: 450px;
-  font-size: 50px;
+  font-size: 70px;
   opacity: 0;
   transition: 1s;
   font-family: "Pacifico", serif;

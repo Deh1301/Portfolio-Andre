@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
         div.style.opacity = "100%";
         div.style.marginLeft = "250px";
-        div.style.rotate = "40deg";
+        div.style.rotate = "360deg";
       }, 1000);
     };
     animaDiv();
