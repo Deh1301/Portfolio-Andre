@@ -72,7 +72,10 @@ h2 {
     margin-top: -100px;
     
   }
-  
+  .gifLogo{
+    width: 75%;
+    margin-left: 40px;
+  }
 
 }
 
@@ -199,3 +202,7 @@ h2 {
     
   }
 } */
+
+@media (min-width:1000px) and (max-w{
+  
+}
